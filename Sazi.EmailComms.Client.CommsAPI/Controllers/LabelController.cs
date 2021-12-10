@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Sazi.EmailComms.Core.Model;
 using Sazi.EmailComms.Core.Repository;
@@ -11,6 +12,7 @@ namespace Sazi.EmailComms.Client.CommsAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class LabelController : ControllerBase
     {
         private readonly IGenericRepository<Label> _labelRepository;
