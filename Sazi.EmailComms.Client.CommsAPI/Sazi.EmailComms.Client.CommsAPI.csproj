@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IdentityServer4.AccessTokenValidation" Version="3.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.15.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sazi.EmailComms.Core.DomainServices\Sazi.EmailComms.Core.DomainServices.csproj" />
+    <ProjectReference Include="..\Sazi.EmailComms.Core.Model\Sazi.EmailComms.Core.Model.csproj" />
+    <ProjectReference Include="..\Sazi.EmailComms.Core.Repository\Sazi.EmailComms.Core.Repository.csproj" />
+    <ProjectReference Include="..\Sazi.EmailComms.Services.Repository\Sazi.EmailComms.Services.Repository.csproj" />
+    <ProjectReference Include="..\Sazi.EmailComms.Services\Sazi.EmailComms.Services.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sazi.EmailComms.Core", "Sazi.EmailComms.Core", "{7088195F-98FF-4EE7-A027-01B0B2003907}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sazi.EmailComms.Infrastructure", "Sazi.EmailComms.Infrastructure", "{C68814FB-A6B7-4DF3-98B5-B8E047CBA8AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sazi.EmailComms.Test", "Sazi.EmailComms.Test", "{7A142926-92A8-4CE0-B6A0-A6EC8ED42E9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sazi.EmailComms.Core.Model", "Sazi.EmailComms.Core.Model\Sazi.EmailComms.Core.Model.csproj", "{B297CBA1-1912-4091-868B-18533C3C393C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sazi.EmailComms.Core.Repository", "Sazi.EmailComms.Core.Repository\Sazi.EmailComms.Core.Repository.csproj", "{65E05FEC-1834-4BD6-B70D-706B4C14A814}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sazi.EmailComms.Core.DomainServices", "Sazi.EmailComms.Core.DomainServices\Sazi.EmailComms.Core.DomainServices.csproj", "{ADFD13D9-997C-4ECE-AA11-CB77CC5A6ADA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sazi.EmailComms.Services", "Sazi.EmailComms.Services", "{BD96AE57-AEE6-4B0C-BAAC-BE5ED88EC03B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sazi.EmailComms.Services.Repository", "Sazi.EmailComms.Services.Repository\Sazi.EmailComms.Services.Repository.csproj", "{C8EDA45D-5DC2-4416-8B71-B9684A0386B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sazi.EmailComms.Services", "Sazi.EmailComms.Services\Sazi.EmailComms.Services.csproj", "{5F3774ED-C407-4BCE-AEBB-569D0196FFAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sazi.EmailComms.Infrastructure.Data", "Sazi.EmailComms.Infrastructure.Data\Sazi.EmailComms.Infrastructure.Data.csproj", "{DAF984C3-FA89-47C3-BCB9-5897FEDE579F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sazi.EmailComms.Client", "Sazi.EmailComms.Client", "{2F4BE262-D77A-4F6E-8262-11934181B41E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sazi.EmailComms.Client.CommsAPI", "Sazi.EmailComms.Client.CommsAPI\Sazi.EmailComms.Client.CommsAPI.csproj", "{B965391F-46E6-4E8C-9780-B31AD1FD3B06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sazi.EmailComms.Security", "Sazi.EmailComms.Security", "{0CFA4CF0-E988-47B5-AB54-6A8C3CB9F50A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sazi.EmailComms.Security.IdentityServer", "Sazi.EmailComms.Security.IdentityServer\Sazi.EmailComms.Security.IdentityServer.csproj", "{DBCEC1F6-8756-42EC-93F6-ADA44CEDA065}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sazi.EmailComms.Test.UnitTests", "Sazi.EmailComms.Test.UnitTests\Sazi.EmailComms.Test.UnitTests.csproj", "{4C7405B4-E2D5-41AB-9412-DB8D5E2F78FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B297CBA1-1912-4091-868B-18533C3C393C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B297CBA1-1912-4091-868B-18533C3C393C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B297CBA1-1912-4091-868B-18533C3C393C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B297CBA1-1912-4091-868B-18533C3C393C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65E05FEC-1834-4BD6-B70D-706B4C14A814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E05FEC-1834-4BD6-B70D-706B4C14A814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E05FEC-1834-4BD6-B70D-706B4C14A814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E05FEC-1834-4BD6-B70D-706B4C14A814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADFD13D9-997C-4ECE-AA11-CB77CC5A6ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADFD13D9-997C-4ECE-AA11-CB77CC5A6ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADFD13D9-997C-4ECE-AA11-CB77CC5A6ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADFD13D9-997C-4ECE-AA11-CB77CC5A6ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8EDA45D-5DC2-4416-8B71-B9684A0386B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8EDA45D-5DC2-4416-8B71-B9684A0386B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8EDA45D-5DC2-4416-8B71-B9684A0386B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8EDA45D-5DC2-4416-8B71-B9684A0386B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F3774ED-C407-4BCE-AEBB-569D0196FFAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F3774ED-C407-4BCE-AEBB-569D0196FFAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F3774ED-C407-4BCE-AEBB-569D0196FFAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F3774ED-C407-4BCE-AEBB-569D0196FFAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF984C3-FA89-47C3-BCB9-5897FEDE579F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF984C3-FA89-47C3-BCB9-5897FEDE579F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF984C3-FA89-47C3-BCB9-5897FEDE579F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF984C3-FA89-47C3-BCB9-5897FEDE579F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B965391F-46E6-4E8C-9780-B31AD1FD3B06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B965391F-46E6-4E8C-9780-B31AD1FD3B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B965391F-46E6-4E8C-9780-B31AD1FD3B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B965391F-46E6-4E8C-9780-B31AD1FD3B06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBCEC1F6-8756-42EC-93F6-ADA44CEDA065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBCEC1F6-8756-42EC-93F6-ADA44CEDA065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBCEC1F6-8756-42EC-93F6-ADA44CEDA065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBCEC1F6-8756-42EC-93F6-ADA44CEDA065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C7405B4-E2D5-41AB-9412-DB8D5E2F78FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C7405B4-E2D5-41AB-9412-DB8D5E2F78FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C7405B4-E2D5-41AB-9412-DB8D5E2F78FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C7405B4-E2D5-41AB-9412-DB8D5E2F78FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B297CBA1-1912-4091-868B-18533C3C393C} = {7088195F-98FF-4EE7-A027-01B0B2003907}
+		{65E05FEC-1834-4BD6-B70D-706B4C14A814} = {7088195F-98FF-4EE7-A027-01B0B2003907}
+		{ADFD13D9-997C-4ECE-AA11-CB77CC5A6ADA} = {7088195F-98FF-4EE7-A027-01B0B2003907}
+		{C8EDA45D-5DC2-4416-8B71-B9684A0386B0} = {BD96AE57-AEE6-4B0C-BAAC-BE5ED88EC03B}
+		{5F3774ED-C407-4BCE-AEBB-569D0196FFAD} = {BD96AE57-AEE6-4B0C-BAAC-BE5ED88EC03B}
+		{DAF984C3-FA89-47C3-BCB9-5897FEDE579F} = {C68814FB-A6B7-4DF3-98B5-B8E047CBA8AC}
+		{B965391F-46E6-4E8C-9780-B31AD1FD3B06} = {2F4BE262-D77A-4F6E-8262-11934181B41E}
+		{DBCEC1F6-8756-42EC-93F6-ADA44CEDA065} = {0CFA4CF0-E988-47B5-AB54-6A8C3CB9F50A}
+		{4C7405B4-E2D5-41AB-9412-DB8D5E2F78FB} = {7A142926-92A8-4CE0-B6A0-A6EC8ED42E9B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F57BEB6-6B41-41CD-98A5-BA1C592855D5}
+	EndGlobalSection
+EndGlobal

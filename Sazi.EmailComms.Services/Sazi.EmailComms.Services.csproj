@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IdentityModel" Version="5.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sazi.EmailComms.Core.DomainServices\Sazi.EmailComms.Core.DomainServices.csproj" />
+    <ProjectReference Include="..\Sazi.EmailComms.Core.Model\Sazi.EmailComms.Core.Model.csproj" />
+    <ProjectReference Include="..\Sazi.EmailComms.Core.Repository\Sazi.EmailComms.Core.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
